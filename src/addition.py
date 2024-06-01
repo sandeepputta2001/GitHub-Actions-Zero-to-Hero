@@ -4,6 +4,8 @@ def add(a, b):
     c=a+b
     print(c)
     return c
+def sub(a,b):
+    return a-b
 
 def test_add():
     assert add(1, 2) == 3
